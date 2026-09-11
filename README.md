@@ -2,7 +2,7 @@
 
 Machine learning project for recognizing human activities using smartphone sensor data.
 
-#[Live Streamlit App] - (https://human-activity-recognition-pulc5pdwbcrbepri2zfm3f.streamlit.app/)
+# [Live Streamlit App] - (https://human-activity-recognition-pulc5pdwbcrbepri2zfm3f.streamlit.app/)
 
 ## Activities
 
