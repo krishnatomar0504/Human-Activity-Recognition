@@ -1,2 +1,58 @@
-# Human-Activity-Recognition
-Machine learning project for human activity recognition using smartphone sensor data, featuring a Linear SVM classifier with 561 features and 96.17% test accuracy.
+# Human Activity Recognition
+
+Machine learning project for recognizing human activities using smartphone sensor data.
+
+## Activities
+
+The model predicts six activities:
+
+- Walking
+- Walking Upstairs
+- Walking Downstairs
+- Sitting
+- Standing
+- Laying
+
+## Model
+
+- Algorithm: Linear SVM
+- Features: 561
+- C: 0.1
+- Cross-Validation: 5-Fold
+- Test Accuracy: 96.17%
+
+## Technologies
+
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Streamlit
+- Joblib
+- Plotly
+
+## Files
+
+- `app.py` - Streamlit application
+- `HAR.ipynb` - Model training notebook
+- `har_svm_model.joblib` - Trained model
+- `sample_data.csv` - Sample test data
+- `requirements.txt` - Required packages
+
+## Run the Project
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+## Dataset
+
+UCI Human Activity Recognition Using Smartphones Dataset.
